@@ -274,10 +274,6 @@
   mask-image: url(/images/newbg/severefrostpane.svg);
   mask-image: url(/images/newbg/severefrostpane.svg);
   mask-image: url(/images/newbg/severefrostpane.svg);
-  mask-image: url(/images/newbg/severefrostpane.svg);
-  mask-image: url(/images/newbg/severefrostpane.svg);
-  mask-image: url(/images/newbg/severefrostpane.svg);
-  mask-image: url(/images/newbg/severefrostpane.svg);
   -webkit-mask-position: -94.5px -329px;
   mask-position: -94.5px -329px;
   -webkit-mask-size: 1065px 1164px;
@@ -6498,7 +6494,8 @@ label{
 }
 .severe-city-info-slide .info-subheadershadowfix {
 }
-/* Removed empty ruleset for .severe-city-info-slide .info-subheader */
+.severe-city-info-slide .info-subheader {
+}
 
 
 .info-slide .info-subheadershadowfix span {

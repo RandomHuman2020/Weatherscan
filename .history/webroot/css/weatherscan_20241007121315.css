@@ -265,23 +265,8 @@
   width: 100%;
   background: #3e3d3e;
   -webkit-mask-image: url(/images/newbg/severefrostpane.svg);
-  mask-image: url(/images/newbg/severefrostpane.svg);
-  mask-image: url(/images/newbg/severefrostpane.svg);
-  mask-image: url(/images/newbg/severefrostpane.svg);
-  mask-image: url(/images/newbg/severefrostpane.svg);
-  mask-image: url(/images/newbg/severefrostpane.svg);
-  mask-image: url(/images/newbg/severefrostpane.svg);
-  mask-image: url(/images/newbg/severefrostpane.svg);
-  mask-image: url(/images/newbg/severefrostpane.svg);
-  mask-image: url(/images/newbg/severefrostpane.svg);
-  mask-image: url(/images/newbg/severefrostpane.svg);
-  mask-image: url(/images/newbg/severefrostpane.svg);
-  mask-image: url(/images/newbg/severefrostpane.svg);
-  mask-image: url(/images/newbg/severefrostpane.svg);
   -webkit-mask-position: -94.5px -329px;
-  mask-position: -94.5px -329px;
   -webkit-mask-size: 1065px 1164px;
-  mask-size: 1065px 1164px;
 }
 .info-slide-content.severe-daypart .hour.ii .thing {
   height: 35px;
@@ -6498,7 +6483,8 @@ label{
 }
 .severe-city-info-slide .info-subheadershadowfix {
 }
-/* Removed empty ruleset for .severe-city-info-slide .info-subheader */
+.severe-city-info-slide .info-subheader {
+}
 
 
 .info-slide .info-subheadershadowfix span {

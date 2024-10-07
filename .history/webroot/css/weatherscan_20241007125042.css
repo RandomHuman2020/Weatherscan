@@ -6498,7 +6498,8 @@ label{
 }
 .severe-city-info-slide .info-subheadershadowfix {
 }
-/* Removed empty ruleset for .severe-city-info-slide .info-subheader */
+.severe-city-info-slide .info-subheader {
+}
 
 
 .info-slide .info-subheadershadowfix span {
