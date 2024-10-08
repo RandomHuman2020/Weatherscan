@@ -261,17 +261,6 @@
   .info-slide-content.severe-extended-forecast .frost-pane.iiw .thingbg,
   .info-slide-content.severe-extended-forecast .frost-pane.iiiw .thingbg {
   -webkit-mask-image: url(/images/newbg/severefrostpane.svg);
-  -webkit-mask-image: url(/images/newbg/severefrostpane.svg);
-  -webkit-mask-image: url(/images/newbg/severefrostpane.svg);
-  .info-slide-content.severe-extended-forecast .frost-pane.iw .thingbg,
-  .info-slide-content.severe-extended-forecast .frost-pane.iiw .thingbg,
-  .info-slide-content.severe-extended-forecast .frost-pane.iiiw .thingbg {
-    -webkit-mask-image: url(/images/newbg/severefrostpane.svg);
-<<<<<<< Tabnine <<<<<<<
-  -webkit-mask-image: url(/images/newbg/severefrostpane.svg);//+
-  mask-image: url(/images/newbg/severefrostpane.svg);
->>>>>>> Tabnine >>>>>>>// {"conversationId":"bd61f48b-c368-4656-8ef0-2e1813a56270","source":"instruct"}
-  }
   mask-image: url(/images/newbg/severefrostpane.svg);
   mask-image: url(/images/newbg/severefrostpane.svg);
   mask-image: url(/images/newbg/severefrostpane.svg);

@@ -261,17 +261,6 @@
   .info-slide-content.severe-extended-forecast .frost-pane.iiw .thingbg,
   .info-slide-content.severe-extended-forecast .frost-pane.iiiw .thingbg {
   -webkit-mask-image: url(/images/newbg/severefrostpane.svg);
-  -webkit-mask-image: url(/images/newbg/severefrostpane.svg);
-  -webkit-mask-image: url(/images/newbg/severefrostpane.svg);
-  .info-slide-content.severe-extended-forecast .frost-pane.iw .thingbg,
-  .info-slide-content.severe-extended-forecast .frost-pane.iiw .thingbg,
-  .info-slide-content.severe-extended-forecast .frost-pane.iiiw .thingbg {
-    -webkit-mask-image: url(/images/newbg/severefrostpane.svg);
-<<<<<<< Tabnine <<<<<<<
-  -webkit-mask-image: url(/images/newbg/severefrostpane.svg);//+
-  mask-image: url(/images/newbg/severefrostpane.svg);
->>>>>>> Tabnine >>>>>>>// {"conversationId":"bd61f48b-c368-4656-8ef0-2e1813a56270","source":"instruct"}
-  }
   mask-image: url(/images/newbg/severefrostpane.svg);
   mask-image: url(/images/newbg/severefrostpane.svg);
   mask-image: url(/images/newbg/severefrostpane.svg);
@@ -827,8 +816,11 @@
   background: #3e3d3e;
   height: 35px;
   width: 100%;
-  mask-image: url(/images/newbg/severefrostpane.svg);
-}
+<<<<<<< Tabnine <<<<<<<
+  : url(/images/newbg/severefrostpane.svg);}}}//-
+  mask-image: url(/images/newbg/severefrostpane.svg);//+
+}//+
+>>>>>>> Tabnine >>>>>>>// {"conversationId":"611eedac-47b4-4ba5-8b93-923fe4207823","source":"instruct"}
 
   -webkit-mask-position: -72px -329px;
   -webkit-mask-size: 1065px 1164px;

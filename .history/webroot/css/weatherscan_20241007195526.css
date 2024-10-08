@@ -5276,6 +5276,16 @@ label{
   mask-size:200% 200%;
   -webkit-mask-position: 0% 100%;
   mask-position: 0% 100%;
+  -webkit-mask-repeat: no-repeat;
+  .info-slide-content.destinationforecast .thing .thingtext .daytitle.i{
+    position: absolute;
+    display: block;
+    left: 405px;
+    width: 70px;
+    text-align: left;
+    transform: scale(104%,100%);
+    transform-origin: left;
+  }
   mask-repeat: no-repeat;
   -webkit-mask-repeat: no-repeat;
   width:67.5%;
@@ -6601,4 +6611,31 @@ label{
         position: absolute;
         display: block;
         left: 574px;
+      }
+      .info-slide-content.destinationforecast .thing .thingtext .daytitle.i{
+        position: absolute;
+        display: block;
+        left: 405px;
+        width: 70px;
+        text-align: left;
+        transform: scale(104%,100%);
+        transform-origin: left;
+      }
+      .info-slide-content.destinationforecast .thing .thingtext .daytitle.ii{
+        position: absolute;
+        display: block;
+        left: 574px;
+        width: 70px;
+        text-align: left;
+        transform: scale(104%,100%);
+        transform-origin: left;
+      }
+      .info-slide-content.destinationforecast .thing .thingtext .daytitle.iii{
+        position: absolute;
+        display: block;
+        left: 747.5px;
+        width: 70px;
+        text-align: left;
+        transform: scale(104%,100%);
+        transform-origin: left;
       }
