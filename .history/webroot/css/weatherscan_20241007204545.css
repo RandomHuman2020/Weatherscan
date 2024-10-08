@@ -2,7 +2,6 @@
   font-family: Interstate;
   src: url(/fonts/newfonts/Interstate-Bold3.woff) format("woff");
   font-weight: 700;
-}
 @font-face {
   font-family: Interstate;
   src: url(/fonts/newfonts/Interstate-Bold5.woff) format("woff");
@@ -233,7 +232,7 @@
   position: absolute;
   top: 323px;
   letter-spacing: 2.5px;
-  transform: translate(-6px,0px) scale(102.5%,100%);
+  transform: translate(-6px,0px) scale(102.5%,100%);;
   transform-origin: left;
 }
 .info-slide-content.severe-daypart {
@@ -261,27 +260,8 @@
   .info-slide-content.severe-extended-forecast .frost-pane.iw .thingbg,
   .info-slide-content.severe-extended-forecast .frost-pane.iiw .thingbg,
   .info-slide-content.severe-extended-forecast .frost-pane.iiiw .thingbg {
-  .info-slide-content.severe-extended-forecast .frost-pane.iw .thingbg,
-  .info-slide-content.severe-extended-forecast .frost-pane.iiw .thingbg,
-  .info-slide-content.severe-extended-forecast .frost-pane.iiiw .thingbg,
-  .info-slide-content.severe-extended-forecast .frost-pane.ivw .thingbg {
   -webkit-mask-image: url(/images/newbg/severefrostpane.svg);
-    mask-image: url(/images/newbg/severefrostpane.svg);
-  }
-  mask-image: url(/images/newbg/severefrostpane.svg);
-  mask-image: url(/images/newbg/severefrostpane.svg);
-  mask-image: url(/images/newbg/severefrostpane.svg);
-  mask-image: url(/images/newbg/severefrostpane.svg);
-  mask-image: url(/images/newbg/severefrostpane.svg);
-  mask-image: url(/images/newbg/severefrostpane.svg);
-  mask-image: url(/images/newbg/severefrostpane.svg);
-  mask-image: url(/images/newbg/severefrostpane.svg);
-  mask-image: url(/images/newbg/severefrostpane.svg);
-}
-    -webkit-mask-image: url(/images/newbg/severefrostpane.svg);
-  }
-  mask-image: url(/images/newbg/severefrostpane.svg);
-  mask-image: url(/images/newbg/severefrostpane.svg);
+  -webkit-mask-image: url(/images/newbg/severefrostpane.svg);
   -webkit-mask-image: url(/images/newbg/severefrostpane.svg);
   .info-slide-content.severe-extended-forecast .frost-pane.iw .thingbg,
   .info-slide-content.severe-extended-forecast .frost-pane.iiw .thingbg,
@@ -289,13 +269,10 @@
     -webkit-mask-image: url(/images/newbg/severefrostpane.svg);
   -webkit-mask-image: url(/images/newbg/severefrostpane.svg);
   -webkit-mask-image: url(/images/newbg/severefrostpane.svg);
-  -webkit-mask-image: url(/images/newbg/severefrostpane.svg);
-  -webkit-mask-image: url(/images/newbg/severefrostpane.svg);
-  -webkit-mask-image: url(/images/newbg/severefrostpane.svg);
-  -webkit-mask-image: url(/images/newbg/severefrostpane.svg);
-  -webkit-mask-image: url(/images/newbg/severefrostpane.svg);
   mask-image: url(/images/newbg/severefrostpane.svg);
-}
+  }
+  mask-image: url(/images/newbg/severefrostpane.svg);
+  mask-image: url(/images/newbg/severefrostpane.svg);
   mask-image: url(/images/newbg/severefrostpane.svg);
   mask-image: url(/images/newbg/severefrostpane.svg);
   mask-image: url(/images/newbg/severefrostpane.svg);
@@ -535,9 +512,8 @@
   width: 100%;
   background: #3e3d3e;
   -webkit-mask-image: url(/images/newbg/severefrostpane.svg);
-  -webkit-mask-image: url(/images/newbg/severefrostpane.svg);
+  mask-image: url(/images/newbg/severefrostpane.svg);
   -webkit-mask-position: -72px -329px;
-  mask-position: -72px -329px;
   mask-position: -72px -329px;
   -webkit-mask-size: 1065px 1164px;
   mask-size: 1065px 1164px;
@@ -843,20 +819,16 @@
   transform: scale(104%,100%);
   transform-origin: left;
 }
-  .info-slide-content.severe-extended-forecast .frost-pane .thingbg {
-    position: absolute;
-    height: 35px;
-    width: 100%;
-    background: #3e3d3e;
-    -webkit-mask-image: url(/images/newbg/severefrostpane.svg);
-    mask-image: url(/images/newbg/severefrostpane.svg);
-    -webkit-mask-position: -72px -329px;
-    mask-position: -72px -329px;
-    -webkit-mask-size: 1065px 1164px;
-    mask-size: 1065px 1164px;
-  }
+.info-slide-content.severe-almanac .thing .thingbg {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #3e3d3e;
+  height: 35px;
+  width: 100%;
+  mask-image: url(/images/newbg/severefrostpane.svg);
+}
 
-.info-slide-content.severe-extended-forecast .frost-pane .thingbg {
   -webkit-mask-position: -72px -329px;
   -webkit-mask-size: 1065px 1164px;
 }
@@ -1192,11 +1164,8 @@ background-image: url(/images/moonphases/new.png);
   height: 35px;
   width: 100%;
   background: #2a3a8a;
-  mask-image: url(/images/newbg/frostpane.svg);
   -webkit-mask-image: url(/images/newbg/frostpane.svg);
-  mask-position: -94.5px -329px;
   -webkit-mask-position: -94.5px -329px;
-  mask-size: 1065px 1164px;
   -webkit-mask-size: 1065px 1164px;
 }
 .info-slide-content.daypart .hour.ii .thing {
@@ -5079,9 +5048,9 @@ label{
   display: flex;
   flex-flow: column;
   z-index: 5
-;preload {
-  background-image: url(image.jpg);
 }
+.preload {
+  z-index: 4
 }
 
 .info-slide .info-subheader {
@@ -6314,9 +6283,7 @@ label{
 
 .forecast-tile.daily:last-child .icon {
   margin-left: .5%
-
-}
-left: -1px;
+    left -1px;
 }
 }
 
@@ -6702,39 +6669,6 @@ left: -1px;
         justify-content: center;
         transform: translate(0px, 13.5px);
       }
-      .info-slide-content.destinationforecast .hightemp {
-        font-family: 'Frutiger 57 Condensed';
-        font-size: 41px;
-        position: absolute;
-        top: 20px;
-        right: 0;
-        width: 60px;
-        transform: scale(104%,100%);
-        transform-origin: left;
-      }
-      .info-slide-content.destinationforecast .thing .thingtext .daytitle.i{
-        position: absolute;
-        display: block;
-        left: 405px;
-        width: 70px;
-        text-align: left;
-        transform: scale(104%,100%);
-        transform-origin: left;
-      }
-      .info-slide-content.destinationforecast .thing .thingtext .daytitle.ii{
-        position: absolute;
-        display: block;
-        left: 574px;
-        width: 70px;
-        text-align: left;
-        transform: scale(104%,100%);
-        transform-origin: left;
-      }
-      .info-slide-content.destinationforecast .thing .thingtext .daytitle.iii{
-        position: absolute;
-        display: block;
-        left: 747.5px;
-        width: 70px;
-        text-align: left;
-        transform: scale(104%,100%);
-        transform-origin: left;} }
+      .info-slide-content.severe-extended-forecast .lfrost-pane .temphigh {
+        background: linear-gradient(to right, rgba(105, 105, 105, 0.5732) 0, rgba(105, 105, 105, 0.45) 100%);
+      }}}}

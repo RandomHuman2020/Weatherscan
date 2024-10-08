@@ -2,7 +2,6 @@
   font-family: Interstate;
   src: url(/fonts/newfonts/Interstate-Bold3.woff) format("woff");
   font-weight: 700;
-}
 @font-face {
   font-family: Interstate;
   src: url(/fonts/newfonts/Interstate-Bold5.woff) format("woff");
@@ -266,12 +265,6 @@
   .info-slide-content.severe-extended-forecast .frost-pane.iiiw .thingbg,
   .info-slide-content.severe-extended-forecast .frost-pane.ivw .thingbg {
   -webkit-mask-image: url(/images/newbg/severefrostpane.svg);
-    mask-image: url(/images/newbg/severefrostpane.svg);
-  }
-  mask-image: url(/images/newbg/severefrostpane.svg);
-  mask-image: url(/images/newbg/severefrostpane.svg);
-  mask-image: url(/images/newbg/severefrostpane.svg);
-  mask-image: url(/images/newbg/severefrostpane.svg);
   mask-image: url(/images/newbg/severefrostpane.svg);
   mask-image: url(/images/newbg/severefrostpane.svg);
   mask-image: url(/images/newbg/severefrostpane.svg);

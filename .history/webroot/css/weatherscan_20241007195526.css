@@ -5286,7 +5286,7 @@ label{
     transform: scale(104%,100%);
     transform-origin: left;
   }
-  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
   -webkit-mask-repeat: no-repeat;
   width:67.5%;
   height:80.5%;

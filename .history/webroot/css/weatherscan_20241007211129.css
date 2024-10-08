@@ -266,8 +266,7 @@
   .info-slide-content.severe-extended-forecast .frost-pane.iiiw .thingbg,
   .info-slide-content.severe-extended-forecast .frost-pane.ivw .thingbg {
   -webkit-mask-image: url(/images/newbg/severefrostpane.svg);
-    mask-image: url(/images/newbg/severefrostpane.svg);
-  }
+  mask-image: url(/images/newbg/severefrostpane.svg);
   mask-image: url(/images/newbg/severefrostpane.svg);
   mask-image: url(/images/newbg/severefrostpane.svg);
   mask-image: url(/images/newbg/severefrostpane.svg);
