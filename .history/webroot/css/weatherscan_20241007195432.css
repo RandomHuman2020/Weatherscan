@@ -6251,6 +6251,7 @@ label{
 .forecast-tile.daily:last-child .icon {
   margin-left: .5%
     left -1px;
+  }
 }
 }
 
@@ -6581,62 +6582,4 @@ label{
 #maps {
         width: 100%;
         height: 400px;
-}
-      .info-slide-content.severe-daypart .hour.v .thing {
-        height: 35px;
-        width: 240px;
-        transform: translate(0px, -35px);
-      }
-      .info-slide-content.severe-daypart .hour.v .thingbg {
-        position: absolute;
-        right: 0px;
-        height: 35px;
-        width: 100%;
-        background: #3e3d3e;
-        -webkit-mask-image: url(/images/newbg/severefrostpane.svg);
-        mask-image: url(/images/newbg/severefrostpane.svg);
-      }
-      .info-slide-content.severe-daypart .hour.v .thingbg {
-        -webkit-mask-position: -730.5px -329px;
-        mask-position: -730.5px -329px;
-        -webkit-mask-size: 1065px 1164px;
-        mask-size: 1065px 1164px;
-      }
-      .info-slide-content.severe-daypart .hour.vi .thing {
-        height: 35px;
-        width: 240px;
-        transform: translate(0px, -35px);
-      }
-      .info-slide-content.severe-daypart .hour.vi .thingbg {
-        position: absolute;
-        right: 0px;
-        height: 35px;
-        width: 100%;
-        background: #3e3d3e;
-        -webkit-mask-image: url(/images/newbg/severefrostpane.svg);
-        mask-image: url(/images/newbg/severefrostpane.svg);
-      }
-      .info-slide-content.severe-daypart .hour.vi .thingbg {
-        -webkit-mask-position: -928.5px -329px;
-        mask-position: -928.5px -329px;
-        -webkit-mask-size: 1065px 1164px;
-        mask-size: 1065px 1164px;
-      }
-      .info-slide-content.severe-extended-forecast .frost-pane .temphigh {
-        color: #fff;
-        font-family: Frutiger;
-        font-weight: 400;
-        font-size: 58.5px;
-        text-shadow: #000 2px 2px 2px;
-        height: 70px;
-        width: 100%;
-        background: linear-gradient(to right, rgba(105, 105, 105, 0.5732) 0, rgba(105, 105, 105, 0.45) 100%);
-        box-shadow: 0 2px 1px 0 rgba(0, 0, 0, .35);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transform: translate(0px, 13.5px);
-      }
-      .info-slide-content.severe-extended-forecast .lfrost-pane .temphigh {
-        background: linear-gradient(to right, rgba(105, 105, 105, 0.5732) 0, rgba(105, 105, 105, 0.45) 100%);
       }
