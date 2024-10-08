@@ -816,7 +816,7 @@
   background: #3e3d3e;
   height: 35px;
   width: 100%;
-  : url(/images/newbg/severefrostpane.svg);
+  -webkit-mask-image: url(/images/newbg/severefrostpane.svg);
   -webkit-mask-position: -72px -329px;
   -webkit-mask-size: 1065px 1164px;
 }
@@ -1449,7 +1449,7 @@ background-image: url(/images/moonphases/new.png);
   align-items: center;
   justify-content: center;
   text-align: center;
-  transform: translate(0px, 23.5px) sc-webkit-mask-imageale(104.5%,100%);
+  transform: translate(0px, 23.5px) scale(104.5%,100%);
 }
 .info-slide-content.extended-forecast .lfrost-pane .templow {
   color: #fff;
@@ -5771,7 +5771,6 @@ label{
   -webkit-mask-size:200% 100%;
   mask-size:200% 100%;
   -webkit-mask-position: 0 100%;
-  mask-position: 0 100%;
   width:57.5%;
   height:157.5%;
   bottom:-22.25%;
@@ -6518,7 +6517,8 @@ label{
   position: absolute;
   min-width: 20%;
 }
-/* Removed empty ruleset for .severe-city-info-slide .info-subheadershadowfix */
+.severe-city-info-slide .info-subheadershadowfix {
+}
 /* Removed empty ruleset for .severe-city-info-slide .info-subheader */
 
 

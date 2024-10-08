@@ -2,6 +2,7 @@
   font-family: Interstate;
   src: url(/fonts/newfonts/Interstate-Bold3.woff) format("woff");
   font-weight: 700;
+}
 @font-face {
   font-family: Interstate;
   src: url(/fonts/newfonts/Interstate-Bold5.woff) format("woff");
@@ -275,8 +276,6 @@
   mask-image: url(/images/newbg/severefrostpane.svg);
   mask-image: url(/images/newbg/severefrostpane.svg);
   mask-image: url(/images/newbg/severefrostpane.svg);
-  mask-image: url(/images/newbg/severefrostpane.svg);
-  mask-image: url(/images/newbg/severefrostpane.svg);
     mask-image: url(/images/newbg/severefrostpane.svg);
   }
   .info-slide-content.severe-extended-forecast .frost-pane.iiw .thingbg {
@@ -303,7 +302,10 @@
   background: #3e3d3e;
   -webkit-mask-image: url(/images/newbg/severefrostpane.svg);
   mask-image: url(/images/newbg/severefrostpane.svg);
-  -webkit-mask-position: -334.5px -329px;
+<<<<<<< Tabnine <<<<<<<
+  -webkit-mask-position: -334.5px -329px;//-
+  mask-position: -334.5px -329px;//+
+>>>>>>> Tabnine >>>>>>>// {"conversationId":"2588266b-29ba-4ede-9a36-6be0d027d3d9","source":"instruct"}
   mask-position: -334.5px -329px;
   -webkit-mask-size: 1065px 1164px;
   mask-size: 1065px 1164px;
@@ -319,11 +321,8 @@
   width: 100%;
   background: #3e3d3e;
   -webkit-mask-image: url(/images/newbg/severefrostpane.svg);
-  mask-image: url(/images/newbg/severefrostpane.svg);
   -webkit-mask-position: -532.5px -329px;
-  mask-position: -532.5px -329px;
   -webkit-mask-size: 1065px 1164px;
-  mask-size: 1065px 1164px;
 }
 .info-slide-content.severe-daypart .hour.iv .thing {
   height: 35px;
@@ -336,11 +335,8 @@
   width: 100%;
   background: #3e3d3e;
   -webkit-mask-image: url(/images/newbg/frostpane.svg);
-  mask-image: url(/images/newbg/frostpane.svg);
   -webkit-mask-position: -730.5px -329px;
-  mask-position: -730.5px -329px;
   -webkit-mask-size: 1065px 1164px;
-  mask-size: 1065px 1164px;
 }
 .info-slide-content.severe-daypart .hour .thing .thingtext {
   color: #fff;
@@ -502,11 +498,8 @@
   width: 100%;
   background: #3e3d3e;
   -webkit-mask-image: url(/images/newbg/severefrostpane.svg);
-  mask-image: url(/images/newbg/severefrostpane.svg);
   -webkit-mask-position: -72px -329px;
-  mask-position: -72px -329px;
   -webkit-mask-size: 1065px 1164px;
-  mask-size: 1065px 1164px;
 }
 .info-slide-content.severe-extended-forecast .thingg .thingday {
   color: #fff;
@@ -816,7 +809,7 @@
   background: #3e3d3e;
   height: 35px;
   width: 100%;
-  : url(/images/newbg/severefrostpane.svg);
+  -webkit-mask-image: url(/images/newbg/severefrostpane.svg);
   -webkit-mask-position: -72px -329px;
   -webkit-mask-size: 1065px 1164px;
 }
@@ -1449,7 +1442,7 @@ background-image: url(/images/moonphases/new.png);
   align-items: center;
   justify-content: center;
   text-align: center;
-  transform: translate(0px, 23.5px) sc-webkit-mask-imageale(104.5%,100%);
+  transform: translate(0px, 23.5px) scale(104.5%,100%);
 }
 .info-slide-content.extended-forecast .lfrost-pane .templow {
   color: #fff;
@@ -5294,9 +5287,8 @@ label{
   mask-size:200% 200%;
   -webkit-mask-position: 0% 100%;
   mask-position: 0% 100%;
-  -webkit-mask-repeat: no-repeat;
-  -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
   width:67.5%;
   height:80.5%;
   bottom: -38.7%;
@@ -5771,7 +5763,6 @@ label{
   -webkit-mask-size:200% 100%;
   mask-size:200% 100%;
   -webkit-mask-position: 0 100%;
-  mask-position: 0 100%;
   width:57.5%;
   height:157.5%;
   bottom:-22.25%;
@@ -6518,7 +6509,8 @@ label{
   position: absolute;
   min-width: 20%;
 }
-/* Removed empty ruleset for .severe-city-info-slide .info-subheadershadowfix */
+.severe-city-info-slide .info-subheadershadowfix {
+}
 /* Removed empty ruleset for .severe-city-info-slide .info-subheader */
 
 
@@ -6658,4 +6650,4 @@ label{
       }
       .info-slide-content.severe-extended-forecast .lfrost-pane .temphigh {
         background: linear-gradient(to right, rgba(105, 105, 105, 0.5732) 0, rgba(105, 105, 105, 0.45) 100%);
-      }}}}
+      }}}

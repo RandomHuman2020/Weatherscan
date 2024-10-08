@@ -1,6 +1,7 @@
 {
     "cSpell.words": [
         "ahigh",
+        "ahightext",
         "frostpane",
         "Frutiger",
         "mainforecast",
@@ -9,6 +10,12 @@
         "newbg",
         "newfonts",
         "nodata",
+        "recordtitle",
+        "rhigh",
+        "rhightext",
+        "rhighyear",
+        "rlow",
+        "rlowtext",
         "Zemestro"
     ]
 }
