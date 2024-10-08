@@ -816,8 +816,16 @@
   background: #3e3d3e;
   height: 35px;
   width: 100%;
-  : url(/images/newbg/severefrostpane.svg);}}}
-
+  : url(/images/newbg/severefrostpane.svg);
+<<<<<<< Tabnine <<<<<<<
+  .info-slide-content.severe-extended-forecast .frost-pane.iw .thingbg,//+
+  .info-slide-content.severe-extended-forecast .frost-pane.iiw .thingbg,//+
+  .info-slide-content.severe-extended-forecast .frost-pane.iiiw .thingbg,//+
+  .info-slide-content.severe-extended-forecast .frost-pane.ivw .thingbg {//+
+    -webkit-mask-image: url(/images/newbg/severefrostpane.svg);//+
+    mask-image: url(/images/newbg/severefrostpane.svg);//+
+  }//+
+>>>>>>> Tabnine >>>>>>>// {"conversationId":"3a9d7ed2-a836-4eda-9467-3da8aa5b00dd","source":"instruct"}
   -webkit-mask-position: -72px -329px;
   -webkit-mask-size: 1065px 1164px;
 }

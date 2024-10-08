@@ -816,7 +816,7 @@
   background: #3e3d3e;
   height: 35px;
   width: 100%;
-  : url(/images/newbg/severefrostpane.svg);}}}
+  : url(/images/newbg/severefrostpane.svg);
 
   -webkit-mask-position: -72px -329px;
   -webkit-mask-size: 1065px 1164px;
